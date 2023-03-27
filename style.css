@@ -1,0 +1,79 @@
+/* Set custom colors */
+/* Style for the container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the heading */
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #C1B6C9;
+}
+
+/* Style for the author */
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: black;
+}
+
+/* Style for the task list */
+.row {
+  border-radius: 5px;
+  background-color: #F6DDE7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style for the delete button */
+button {
+  background-color: #C1B6C9;
+  border-color: #C1B6C9;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-left: 10px;
+}
+button:hover {
+  background-color: #FFFFFF;
+  color: #C1B6C9;
+}
+
+/* Style for the complete checkbox */
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid #C1B6C9;
+  background-color: transparent;
+  color: #C1B6C9;
+  font-weight: 500;
+  margin-left: 10px;
+}
+input[type=text]:focus {
+  outline: none;
+}
+
+/* Style for the filter checkboxes */
+label {
+  margin-right: 20px;
+}
+label input[type=checkbox] {
+  margin-right: 5px;
+}
+
+/* Style for the Add button */
+button[type=submit] {
+  background-color: #C1B6C9;
+  border-color: #C1B6C9;
+  font-weight: 600;
+}
+button[type=submit]:hover {
+  background-color: #FFFFFF;
+  color: #C1B6C9;
+}/*# sourceMappingURL=style.css.map */
